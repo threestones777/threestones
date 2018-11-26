@@ -13,16 +13,32 @@
         <!-- 轮播图片 -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./../assets/images/banner/1.jpg">
+            <div style="width:100%;height:340px;background:orange;"></div>
+            <div class="carousel-caption">
+              <h3>第一张图片描述标题</h3>
+              <p>描述文字!</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="./../assets/images/banner/2.jpg">
+            <div style="width:100%;height:340px;background:red"></div>
+            <div class="carousel-caption">
+              <h3>第二张图片描述标题</h3>
+              <p>描述文字!</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="./../assets/images/banner/3.jpg">
+            <div style="width:100%;height:340px;background:blue"></div>
+            <div class="carousel-caption">
+              <h3>第三张图片描述标题</h3>
+              <p>描述文字!</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="./../assets/images/banner/4.jpg">
+            <div style="width:100%;height:340px;background:green"></div>
+            <div class="carousel-caption">
+              <h3>第四张图片描述标题</h3>
+              <p>描述文字!</p>
+            </div>
           </div>
         </div>
        

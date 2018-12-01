@@ -8,39 +8,16 @@
       <div @click="show" class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#/home">人生<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#/photos" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">图集</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#/plant">植物</a>
-              <a class="dropdown-item" href="#/animal">动物</a>
-              <a class="dropdown-item" href="#/travel">旅行</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#/skill" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">技术</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#/mechanical">机械</a>
-              <a class="dropdown-item" href="#/computer">计算机</a>
-              <a class="dropdown-item" href="#/web">前端</a>
-              <a class="dropdown-item" href="#/project">项目</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#/interests" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">兴趣</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#/epub">电子书</a>
-              <a class="dropdown-item" href="#/movie">电影</a>
-              <a class="dropdown-item" href="#/financial">理财</a>
-              <a class="dropdown-item" href="#/game">游戏</a>
-            </div>
+            <router-link class="nav-link" to="/home">人生</router-link>
+          </li>          
+          <li class="nav-item">
+            <router-link class="nav-link" to="/photos">图集</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#/one">one</a>
+            <router-link class="nav-link" to="/skill">技术</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#/two">two</a>
+            <router-link class="nav-link" to="/interests">兴趣</router-link>
           </li>
           
         </ul>
